@@ -1,14 +1,14 @@
 <div align="right">
-  <a href="https://github.com/LT1st/awesome-surface-defect-dataset/README_en">English</a> | 简体中文
+  <a href="https://github.com/Charmve/Surface-Defect-Detection">English</a> | 简体中文
 </div>
-<!-- https://github.com/LT1st/awesome-surface-defect-dataset/ -->
 
-# 工业场景表面缺陷检测数据集及论文集 
+# 工业场景表面缺陷检测数据集及论文集
 
-![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
+ ![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
 
-本repo继承于[https://github.com/Charmve/Surface-Defect-Detection/](https://github.com/Charmve/Surface-Defect-Detection/)，由于自21年以来有诸多数据集被发布，而源repo未进行更新，本repo将提供更详细的信息。
-我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来到20年的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
+本repo继承于[https://github.com/Charmve/Surface-Defect-Detection/](https://github.com/Charmve/Surface-Defect-Detection/)，
+由于自21年以来有诸多数据集被发布，而源repo未进行更新，本repo将提供更详细的数据集信息。
+同时，本repo也不会提供相关论文。
 
 <div align=center><img src="metal_surface.png"></div>
 <br>
@@ -46,6 +46,13 @@
   - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
   - [BSData-用于实例细分和工业磨损预测的数据集](#17BSData-用于实例细分和工业磨损预测的数据集)
   - [GID-齿轮检测数据集](#18齿轮检测数据集)
+  - [NEU surface defect database数据集](#19NEU surface defect database数据集)
+  - [NEU-DET数据集](#20NEU-DET数据集)
+  - [SD-saliency-900数据集](#21SD-saliency-900数据集)
+  - [Surface Defects-4i表面缺陷分割数据集](#22Surface Defects-4i表面缺陷分割数据集)
+  - [RSDDS-113数据集](#23RSDDS-113数据集)
+  - [改进的X-SDD数据集](#24改进的X-SDD数据集)
+  - [Rail-5K数据集](#25Rail-5k数据集)
 - [最佳数据集来源盘点](#三最佳数据集来源盘点)
 - [论文集](#四表面缺陷检测论文集)
 - [致谢](#致谢)
@@ -221,6 +228,14 @@ https://pan.baidu.com/s/1LMbujxvr5iB3SwjFGYHspA (提取码：``gat2``)
 https://tianchi.aliyun.com/competition/entrance/231682/information
 
 数据集介绍：在铝型材的实际生产过程中，由于各方面因素的影响，铝型材表面会产生裂纹、起皮、划伤等瑕疵，这些瑕疵会严重影响铝型材的质量。为保证产品质量，需要人工进行肉眼目测。然而，铝型材的表面自身会含有纹路，与瑕疵的区分度不高。传统人工肉眼检查十分费力，不能及时准确的判断出表面瑕疵，质检的效率难以把控。近年来，深度学习在图像识别等领域取得了突飞猛进的成果。铝型材制造商迫切希望采用最新的AI技术来革新现有质检流程，自动完成质检任务，减少漏检发生率，提高产品的质量，使铝型材产品的生产管理者彻底摆脱了无法全面掌握产品表面质量的状态。大赛数据集里有1万份来自实际生产中有瑕疵的铝型材监测影像数据，每个影像包含一个或多种瑕疵。供机器学习的样图会明确标识影像中所包含的瑕疵类型。
+
+该数据集包括：
+
+- 8000张2560 x 1920像素的数据集
+- 总共3000张训练集；
+-- 229张多瑕疵图像；
+-- 2281张单瑕疵图像；
+-- 1351张无缺陷图像；
 
 <div align=center><img src="https://img-blog.csdnimg.cn/20200927192449686.png"></div>
 
@@ -420,7 +435,145 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
+### 19）NEU surface defect database数据集
+
+该数据集是由Song在2013年提出。
+
+在该数据集中，收集了热轧带钢的六种典型表面缺陷，即轧制氧化皮（rolled-in scale，RS）、斑块（patches，Pa）、开裂（crazing，Cr）、点蚀表面（pitted surface，PS）、内含物（inclusion，In）和划痕（scratches，Sc)。
+
+<div align=center><img src="Surface defect database.png"></div>
 <br>
+
+官方链接：http://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/
+
+百度网盘链接：https://pan.baidu.com/s/1B_SLhZNRPeKznDc78GY2QA
+
+该数据集包括：
+
+- 1800张灰度图像；
+- 每种类型缺陷各300张样本；
+- 每个图像的原始分辨率为200×200；
+- 提供bounding box标注，注明了每个图像中缺陷的类别和位置；
+
+该数据集类间缺陷在外观上存在较大差异，类间缺陷具有相似的特征。此外，由于光照和材料变化的影响，类内缺陷图像的灰度变化。
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 20）NEU-DET数据集
+
+该数据集是由He等人在2020年提出。
+
+该数据集将NEU-CLS中的数据进一步细化标注，提供用于目标检测任务的Bounding-Box标签。
+
+<div align=center><img src="DET.png"></div>
+<br>
+
+百度网盘链接：https://pan.baidu.com/share/init?surl=nBbO-jWDm1_NHDQsc1dRkg（密码：pmqx）
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 21）SD-saliency-900数据集
+
+该数据集是由Song等人在2020年提出。
+
+该数据集包括三种带钢表面缺陷(夹杂物，补丁和划痕)，包括总共900个钢表面缺陷检测图像和相应的像素级二值图(ground truth)，300 张图片(原始分辨率为 200×200像素)
+
+<div align=center><img src="SD-saliency-900.png"></div>
+<br>
+
+该数据集包括：
+
+- 900张钢表面缺陷检测图像和相应的像素级二值图；
+- 每种类型缺陷各300张样本；
+- 每个图像的原始分辨率为200×200像素；
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 22）Surface Defects-4i表面缺陷分割数据集
+
+该数据集是由Bao等人提出。
+
+该数据集包含铝、钢、铁轨和磁砖等属于常见的金属表面缺陷及其对应像素级标签。同时增加了非金属类（皮革和瓷砖）作为扩展数据，来进一步证明模型泛化能力。
+该数据集使用多个金属表面缺陷数据集的图像和注释。
+
+<div align=center><img src="Surface Defects-4i.png"></div>
+<br>
+
+该数据集包括：
+
+- 共有12种不同类型的表面缺陷；
+- 每种类型包括缺陷图像、groundtruth（GT）、大量正常图像；
+- 每个图像的原始分辨率为200×200像素；
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 23）RSDDS-113数据集
+
+该数据集是由Niu等人提出。
+
+该数据集样本取自一家型钢工厂的实际工业生产线。收集其中20个有缺陷信息的轨道区段，并将其用于构建轨道表面缺陷数据集（RSDDS-113）。钢轨试样和试验设备试样的数据涵盖了钢轨的所有位置，如腰表面、踏面和底表面。其表面缺陷的类型和位置是随机的。
+
+<div align=center><img src="RSDDS-113.png"></div>
+<br>
+
+该数据集包括：
+
+- 113对典型缺陷图像；
+- 每一对图像都由左摄像头图像和相应的深度图像组成；
+
+该数据集标注可信度高，但数据样本较少。
+<br>
+
+链接：https://github.com/neu-rail-rsdds/rsdds
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### 24）改进的X-SDD数据集
+
+该数据集是由Feng等人在2021年提供的热轧带钢缺陷数据集。
+
+该数据集的数据集可以作为NEU-CLS的重要补充。
+<div align=center><img src="X-SDD.png"></div>
+<br>
+
+链接： https://github.com/Fighter20092392/X-SDD-A-New-benchmark
+
+
+该数据集包括：
+
+- 7种典型类型的热轧带钢故障图像；
+- 共有1360个图像；
+
+由于X-SDD中样本数量的不平衡，为研究人员解决样本不平衡问题提供了条件。
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
+
+### ）25Rail-5k数据集
+
+该数据集是由Zhang等人在2021年提供的，用于钢轨表面缺陷检测任务。
+
+该数据集可用于两种设置，第一种是使用1000+标记张图像进行训练的全监督设置，缺陷类别的细粒度性质和长尾分布使得视觉算法难以解决。第二种是由4000未标记图像促进的半监督学习设置，这些4k图像是未策划的，包含可能的图像损坏和带有标记图像的域偏移，这是以前的半监督无法轻松解决的。
+
+<div align=center><img src="Rail-5k.png"></div>
+<br>
+
+该数据集包括：
+
+- 13种铁路缺陷类型；
+- 共5000多张高质量图像；
+- 1100张图像有注释；
+-- 分辨率为3648 × 2736像素；
+
+该数据集包含两部分数据，第一部分是带有1000标记图像的标记子集，第二部分是带有3000图像的未标记子集。因此，该数据集可以同时支持监督学习和半监督学习设置。
+<br>
+
+👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 三、最佳数据集来源盘点
 
@@ -442,17 +595,11 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 <br>
 
-## 四、表面缺陷检测论文集
-
-收集一些表面缺陷检测的文章，主要检测对象是：金属表面、LCD屏、建筑、输电线等缺陷或异常检物。方法以分类方法、检测方法、重构方法、生成方法为主。电子版论文放在了paper文件的对应日期文件下。
-
-详见本仓库 <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>
-
-<br>
-
-👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
 ## 致谢
+
+<p>感谢原始repo</p>
+
 
 <p>你能看到这个项目，我们应当感谢上述数据集最初开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到2019年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
 
@@ -496,14 +643,7 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 <p>本开源数据集最初是由许多人贡献的，只是太过分散，对寻找数据集是个十分费时费力的过程。很多数据集是研究者论文的训练/测试集，或是企业的开源数据集，因此 <strong>您只能将此数据集用于研究目的。</strong></p>
 
-<p>如您有任何疑问和想法，欢迎来信交流 :email: yidazhang1@gmail.com</p>
 
-## 🍮 表面缺陷检测交流群
-- Github <a href="https://github.com/Charmve/Surface-Defect-Detection/discussions" target="_blank">discussions 💬</a> or <a href="https://github.com/Charmve/Surface-Defect-Detection/issues" target="_blank">issues 💭</a>
-
-- QQ群: 734758251 (密码：哈哈哈)
-- 微信群：加我拉你进群 Yida_Zhang2
-- Email: yidazhang1#gmail.com
 
 ## 引用方式
 Use this bibtex to cite this repository:
