@@ -1,10 +1,14 @@
 <div align="right">
-  <a href="https://github.com/Charmve/Surface-Defect-Detection">English</a> | 简体中文
+  <a href="https://github.com/LT1st/awesome-surface-defect-dataset/README_en">English</a> | 简体中文
 </div>
+<!-- https://github.com/LT1st/awesome-surface-defect-dataset/ -->
 
-# 工业场景表面缺陷检测数据集及论文集 ![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
+# 工业场景表面缺陷检测数据集及论文集 
 
-我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
+![Contributions welcome](https://img.shields.io/badge/contributing-👐%20Welcome-orange.svg)
+
+本repo继承于[https://github.com/Charmve/Surface-Defect-Detection/](https://github.com/Charmve/Surface-Defect-Detection/)，由于自21年以来有诸多数据集被发布，而源repo未进行更新，本repo将提供更详细的信息。
+我不断总结表面缺陷研究领域中的开源数据集（这个非常关键），收集整理了自17年以来到20年的重要论文，可以在<a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a>文件夹下查看。 🐋
 
 <div align=center><img src="metal_surface.png"></div>
 <br>
