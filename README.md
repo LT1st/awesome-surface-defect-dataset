@@ -57,8 +57,6 @@
 - [论文集](#四表面缺陷检测论文集)
 - [致谢](#致谢)
 - [下载方式](#下载方式)
-- [提示！](#提示)
-- [表面缺陷检测交流群](#-表面缺陷检测交流群)
 
 <br>
 
@@ -554,7 +552,7 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
-### ）25Rail-5k数据集
+### 25）Rail-5k数据集
 
 该数据集是由Zhang等人在2021年提供的，用于钢轨表面缺陷检测任务。
 
@@ -600,7 +598,6 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 <p>感谢原始repo</p>
 
-
 <p>你能看到这个项目，我们应当感谢上述数据集最初开源的人，他们给我们的学习和研究工作带来了极大的帮助。这个数据集的收集想法起初来自于看了“AI算法修炼营”SFXiang的一篇关于表面缺陷检测的文章，促使我整理一份更为全面的数据集。论文集来自于一位叫“庆志的小徒弟”的CSDNer，现在论文收集只到2019年11月份，之后会继续完善。<strong>同时，希望能有更多小伙伴上传新的数据集。Feel free to <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTE</a>.</strong></p>
 
 <p>最后，我想再次感谢以上数据集的开源贡献者。</p>
@@ -639,9 +636,6 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
-## 提示！
-
-<p>本开源数据集最初是由许多人贡献的，只是太过分散，对寻找数据集是个十分费时费力的过程。很多数据集是研究者论文的训练/测试集，或是企业的开源数据集，因此 <strong>您只能将此数据集用于研究目的。</strong></p>
 
 
 
@@ -649,29 +643,29 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 Use this bibtex to cite this repository:
 ```
 @misc{Surface Defect Detection,
-  title={Surface Defect Detection: Dataset and Papers},
+  title={Online Collection of Surface Defect},
   author={Charmve},
-  year={2020.09},
+  year={2023.10},
   publisher={Github},
   journal={GitHub repository},
-  howpublished={\url{https://github.com/Charmve/Surface-Defect-Detection}},
+  howpublished={\url{https://github.com/LT1st/awesome-surface-defect-dataset}},
 }
 ```
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/Charmve/Surface-Defect-Detection.svg)](https://starchart.cc/Charmve/Surface-Defect-Detection)
+[![Stargazers over time](https://starchart.cc/LT1st/awesome-surface-defect-dataset.svg)](https://starchart.cc/LT1st/awesome-surface-defect-dataset)
 
 <br>
-* <i>Update on Dec 21，2020 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
+* <i>Update on Oct，2023 @<a href="https://github.com/Charmve" target="_blank">Charmve</a>, 
     <a class="github-button"
-        href="https://github.com/Charmve/Surface-Defect-Detection"
+        href="https://starchart.cc/LT1st/awesome-surface-defect-dataset/star"
         data-icon="octicon-star" data-show-count="true"
-        aria-label="Star Charmve/Surface-Defect-Detection on GitHub">Star</a> 
+        aria-label="Star LT1st/awesome-surface-defect-dataset on GitHub">Star</a> 
     and 
     <a class="github-button"
-        href="https://github.com/Charmve/Surface-Defect-Detection/fork"
+        href="https://starchart.cc/LT1st/awesome-surface-defect-dataset/fork"
         data-icon="octicon-repo-forked" data-show-count="true"
-        aria-label="Fork Charmve/Surface-Defect-Detection on GitHub">Fork</a>
+        aria-label="Fork LT1st/awesome-surface-defect-dataset on GitHub">Fork</a>
 </i>
 
