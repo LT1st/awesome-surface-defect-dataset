@@ -46,10 +46,10 @@
   - [MVTec 异常检测数据集](#16MVTec-异常检测数据集)
   - [BSData-用于实例细分和工业磨损预测的数据集](#17BSData-用于实例细分和工业磨损预测的数据集)
   - [GID-齿轮检测数据集](#18齿轮检测数据集)
-  - [NEU surface defect database数据集](#19NEU surface defect database数据集)
+  - [NEU surface defect database数据集](#19NEU-surface-defect-database数据集)
   - [NEU-DET数据集](#20NEU-DET数据集)
   - [SD-saliency-900数据集](#21SD-saliency-900数据集)
-  - [Surface Defects-4i表面缺陷分割数据集](#22Surface Defects-4i表面缺陷分割数据集)
+  - [Surface Defects-4i表面缺陷分割数据集](#22Surface-Defects-4i表面缺陷分割数据集)
   - [RSDDS-113数据集](#23RSDDS-113数据集)
   - [改进的X-SDD数据集](#24改进的X-SDD数据集)
   - [Rail-5K数据集](#25Rail-5k数据集)
@@ -433,7 +433,7 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 
 👆 [<b>BACK to Table of Contents</b> -->](#目录)
 
-### 19）NEU surface defect database数据集
+### 19）NEU-surface-defect-database数据集
 
 该数据集是由Song在2013年提出。
 
