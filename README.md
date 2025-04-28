@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="https://github.com/Charmve/Surface-Defect-Detection">English</a> | 简体中文
+  <a href="https://github.com/Charmve/Surface-Defect-Detection">原始repoEnglish</a> | 简体中文
 </div>
 
 # 工业场景表面缺陷检测数据集及论文集
