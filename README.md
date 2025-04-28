@@ -8,7 +8,7 @@
 
 本repo继承于[https://github.com/Charmve/Surface-Defect-Detection/](https://github.com/Charmve/Surface-Defect-Detection/)，
 由于自21年以来有诸多数据集被发布，而源repo未进行更新，本repo将提供更详细的数据集信息。
-同时，本repo也不会提供相关论文。
+为了减少阅读负担，本repo也**不会**提供相关论文。
 
 <div align=center><img src="metal_surface.png"></div>
 <br>
@@ -622,8 +622,8 @@ Defective_Insulators包含有缺陷的绝缘体，绝缘子缺陷图像的数量
 Use this bibtex to cite this repository:
 ```
 @misc{Surface Defect Detection,
-  title={Online Collection of Surface Defect},
-  author={Charmve},
+  title={Online Collection of Surface Defect v2},
+  author={Tao Lu},
   year={2023.10},
   publisher={Github},
   journal={GitHub repository},
@@ -633,10 +633,10 @@ Use this bibtex to cite this repository:
 @misc{Surface Defect Detection,
   title={Online Collection of Surface Defect},
   author={Charmve},
-  year={2023.10},
+  year={2019.10},
   publisher={Github},
   journal={GitHub repository},
-  howpublished={\url{https://github.com/LT1st/awesome-surface-defect-dataset}},
+  howpublished={\url{https://github.com/Charmve/Surface-Defect-Detection/}},
 }
 ```
 
